@@ -1,7 +1,8 @@
 import React from 'react';
 import { Card, Button, Input, Form, Row, Col } from 'antd';
 import { UserOutlined, LockOutlined, MailOutlined, TeamOutlined } from '@ant-design/icons';
-import '../stylesheet/Login.css'; // Import custom CSS for styling
+import '../stylesheet/Login.css'; 
+import { Link } from 'react-router-dom';
 
 function StudentLogin() {
   const onFinish = (values) => {
@@ -41,7 +42,8 @@ function StudentLogin() {
           </Button>
         </Form.Item>
         <div className="forgot-signup">
-          <a href="/forgot-password">Forgot Password?</a> | <a href="/sign-up">Sign Up</a>
+        <Link to="/forgot-password">Forgot Password?</Link> |{' '}
+          <Link to="/student/signup">Sign Up</Link>
         </div>
       </Form>
     </Card>

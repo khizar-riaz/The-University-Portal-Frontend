@@ -1,5 +1,5 @@
-/* Login.css */
-.login-page {
+/* Signup.css */
+.signup-page {
     background-color: #08afb1;
     display: flex;
     justify-content: center;
@@ -7,51 +7,29 @@
     min-height: 100vh;
   }
   
-  .login-card {
+  .signup-card {
     width: 450px;
-    height: fit-content;
     padding: 20px;
     border-radius: 10px;
     background-color: white;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   }
   
-  .login-title {
+  .signup-title {
     text-align: center;
     font-size: 34px;
     margin-bottom: 20px;
     color: #08afb1;
   }
   
-  .avatar {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 20px;
-  }
-  
-  .login-button {
+  .signup-button {
     background-color: #08afb1;
     border: none;
     margin-top: 10px;
   }
   
-  .forgot-signup {
+  .already-signedup {
     text-align: center;
     margin-top: 10px;
   }
-
-  .ant-input {
-    height: 48px; 
-  }
   
-  .ant-input::placeholder {
-    font-size: 14px; 
-    color: #999; 
-  }
-  
-  .ant-input-prefix svg {
-    font-size: 16px; 
-    color: #08afb1; 
-  }
