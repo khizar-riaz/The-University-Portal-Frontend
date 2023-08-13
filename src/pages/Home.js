@@ -11,7 +11,7 @@ function HomePage  () {
       <h1 className="portal-title">Welcome to University Portal</h1>
       <Row gutter={[16, 16]}>
         <Col span={8}>
-          <Card className="login-card" title="Admin">
+          <Card className="portal-card" title={<span className="card-title">Admin</span>}>
             <div className="avatar-container">
               <UserOutlined className="avatar-icon" />
             </div>
@@ -21,7 +21,7 @@ function HomePage  () {
           </Card>
         </Col>
         <Col span={8}>
-          <Card className="login-card" title="Teacher">
+          <Card className="portal-card" title={<span className="card-title">Teacher</span>}>
             <div className="avatar-container">
               <SolutionOutlined className="avatar-icon" />
             </div>
@@ -31,7 +31,7 @@ function HomePage  () {
           </Card>
         </Col>
         <Col span={8}>
-          <Card className="login-card" title="Student">
+          <Card className="portal-card" title={<span className="card-title">Student</span>}>
             <div className="avatar-container">
               <TeamOutlined className="avatar-icon" />
             </div>
