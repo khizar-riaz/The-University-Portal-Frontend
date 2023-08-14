@@ -1,0 +1,31 @@
+/* StudentDashboard.css */
+.sidebar {
+    background-color: #08afb1;
+  }
+  
+  .header {
+    background-color: white;
+    padding: 0 20px;
+  }
+  
+  .search-bar {
+    width: 300px;
+  }
+  
+  .header-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .content {
+    padding: 20px;
+    background-color: #f0f2f5;
+  }
+  
+  .footer {
+    text-align: center;
+    background-color: white;
+    padding: 10px 0;
+    border-top: 1px solid #e8e8e8;
+  }
+  
