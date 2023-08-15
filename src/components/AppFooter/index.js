@@ -2,7 +2,7 @@ import React from 'react'
 
 function AppFooter() {
   return (
-    <div>index</div>
+    <div className='AppFooter'>index</div>
   );
 }
 

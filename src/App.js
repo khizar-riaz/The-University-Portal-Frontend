@@ -24,3 +24,24 @@ function App() {
 }
 
 export default App;
+
+// import { Space } from "antd";
+// import "./App.css";
+// import AppFooter from "./components/AppFooter";
+// import AppHeader from "./components/AppHeader";
+// import ContentPage from "./components/ContentPage";
+// import SideMenu from "./components/SideMenu";
+
+// function App() {
+//   return (
+//     <div className="App">
+//       <AppHeader />
+//       <div className="SideMenuAndPageContent">
+//         <SideMenu></SideMenu>
+//         <ContentPage></ContentPage>
+//       </div>
+//       <AppFooter />
+//     </div>
+//   );
+// }
+// export default App;

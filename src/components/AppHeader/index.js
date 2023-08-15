@@ -1,8 +1,11 @@
 import React from 'react'
-
 function AppHeader() {
+
+
   return (
-    <div>AppHeader</div>
+    <div className="AppHeader">
+       HEADER
+    </div>
   );
 }
 

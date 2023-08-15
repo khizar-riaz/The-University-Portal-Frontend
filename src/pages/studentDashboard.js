@@ -3,7 +3,7 @@ import AppHeader from '../components/AppHeader'
 import AppFooter from '../components/AppFooter'
 import SideMenu from '../components/SideMenu'
 import ContentPage from '../components/ContentPage'
-import { Space } from "antd";
+
 // import { Layout, Menu, Input, Avatar, Row, Col } from "antd";
 // import {
 //   SearchOutlined,
@@ -14,7 +14,7 @@ import { Space } from "antd";
 //   FileSearchOutlined,
 //   CalendarOutlined,
 // } from "@ant-design/icons";
-// import "./StudentDashboard.css"; // Import custom CSS for styling
+ import "./StudentDashboard.css"; // Import custom CSS for styling
 // import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom"; // Import React Router components
 // import Dashboard from "../components/Dashboard";
 // import Results from "../components/Results";
@@ -70,13 +70,13 @@ function StudentDashboard() {
     //     </Footer>
     //   </Layout>
     // </Layout>
-    <div>
-       <AppHeader/>
-       <Space>
-        <SideMenu/>
-        <ContentPage/>
-       </Space>
-       <AppFooter/>
+     <div className="App">
+      <AppHeader />
+      <div className="SideMenuAndPageContent">
+        <SideMenu></SideMenu>
+        <ContentPage></ContentPage>
+      </div>
+      <AppFooter />
     </div>
   );
 }
