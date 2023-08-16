@@ -1,8 +1,9 @@
 import React from 'react'
-
 function AppFooter() {
   return (
-    <div className='AppFooter'>index</div>
+    <div className='AppFooter'>
+      Copyright © {new Date().getFullYear()} khizarriaz.com
+    </div>
   );
 }
 
