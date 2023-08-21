@@ -6,35 +6,38 @@ import {
   UserOutlined,
 } from "@ant-design/icons";
 import { Menu } from "antd";
+import { useLocation, useNavigate } from "react-router-dom";
 function SideMenu() {
+  
+  const navigate = useNavigate();
   return (
     <div className="SideMenu">
        <Menu
         className="SideMenuVertical"
         mode="vertical"
         onClick={(item) => {
-         
+            navigate(item.key);
         }}
 
         items={[
           {
             label: "Dashbaord",
             icon: <AppstoreOutlined />,
-            key: "/",
+            key: "/student/default",
           },
           {
-            label: "Inventory",
-            key: "/inventory",
+            label: "Courses",
+            key: "/student/courses",
             icon: <ShopOutlined />,
           },
           {
-            label: "Orders",
-            key: "/orders",
+            label: "Results",
+            key: "/student/result",
             icon: <ShoppingCartOutlined />,
           },
           {
-            label: "Customers",
-            key: "/customers",
+            label: "Attendence",
+            key: "/student/attendence",
             icon: <UserOutlined />,
           },
         ]}

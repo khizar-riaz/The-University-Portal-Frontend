@@ -1,8 +1,11 @@
-import React from 'react'
-
+import AppRoutes from "../AppRoutes";
 function ContentPage() {
   return (
-    <div className='ContentPage'>ContentPage</div>
+    <div className='ContentPage'>
+  
+      <AppRoutes />
+  
+    </div>
   );
 }
 
